@@ -13,6 +13,4 @@ function calcularIMC(peso, altura) {
         return `IMC: ${imc.toFixed(2)} - Obesidad extrema`;
     }
 }
-const peso = 102;
-const altura = 1.65;
-console.log(calcularIMC(peso, altura));
+module.exports.moduloCalcularIMC = calcularIMC;
